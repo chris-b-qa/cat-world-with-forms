@@ -11,7 +11,7 @@
     <h2>Add new User</h2>
     <form method="POST" action="/users">
         {{ user_form.hidden_tag() }}
-        {{ user_form.name.label }} {{ user_form.name }}
+        {{ user_form.name.label }} {{ user_form.name(class='an-example-class', placeholder='Go on, enter your name')}}
         {{ user_form.submit }}
     </form>
 

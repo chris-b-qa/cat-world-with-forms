@@ -19,6 +19,12 @@ img {
     display: none !important;
 }
 
+.an-example-class{
+    border-radius: 50px;
+    border: 5px solid green;
+    min-width: 50ch;
+}
+
 .flashes {
     padding: 0 1.5rem;
     margin: 1rem;
